@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Lobster&display=swap');
+/* font-family: 'Baloo 2', cursive; */
+/* font-family: 'Lobster', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/* font-family: 'Kaushan Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* font-family: 'Great Vibes', cursive; */
+
+/* ------------------------> CSSS Reset --------------------> */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(20, 20, 20);
+    font-family: 'Baloo 2', cursive;
+}
+
+/*  --------------------------> Scroll Bar---------------------------- */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* -------------------------------> Vairable ----------------------->*/
+
+:root {
+    --font-size-link: 25.5px;
+    --padding-link: 10px 15px;
+    --border-radius-link: 15px;
+}
+
+/*  -------------------------- preloader --------------- */
+
+  
+
+/* -------------------------> header -----------------------------------> */
+
+#header {
+    /* border: 2px solid red;   */
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+/* javacsript add class */
+
+.header-scroll {
+    position: fixed;
+    background: blueviolet;
+    color: #eaeaea;
+    height: 12vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    width: 84%;
+    justify-content: space-between;
+}
+
+.navbar-container .logo {
+    padding: 9px 34px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-container .logo:hover {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transform: rotateZ(2deg);
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17);
+}
+
+.navbar-container ul {
+    display: flex;
+    padding: 10px;
+    transition: all .7s ease-in-out;
+}
+
+.navbar-container ul:hover {
+    background-color: blueviolet;
+}
+
+.navbar-container ul a {
+    padding: var(--padding-link);
+    font-size: var(--font-size-link);
+    border-radius: var(--border-radius-link);
+    transition: all .8s ease-in-out;
+}
+
+.navbar-container ul a:hover {
+    border: none;
+    border-bottom: 1px solid rgb(80, 1, 155);
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: rgb(47, 47, 47);
+    box-shadow: 0px 0px 1px rgb(181, 198, 248);
+}
+
+#header .navbar .hamburger-menu {
+    display: none;
+}
+
+/* ---------------------> top section --------------------------------->*/
+
+.top-section {
+    width: 100%;
+    background-color: #f7f3f33b;
+    padding: 10px 100px;
+}
+
+
+.top-section-div-1 div {
+    font-size: 22px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.top-section-div {
+    border: 2px solid blueviolet;
+    border-top: 4px solid blueviolet;
+    background-color: white;
+    font-size: 30px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 40px;
+    padding: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.top-section-div:hover {
+    border-radius: 20px !important;
+    background-color: blueviolet;
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17);
+}
+
+.top-section-div-2#bhai {
+    max-width: 335px;
+}
+
+.top-section-div-2 div img {
+    width: 100%;
+    max-height: 16em;
+
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.top-section-div-3:nth-last-child() {
+    width: 10px;
+}
+
+/* -------------------------------------> mid section ----------------> */
+
+.mid-section {
+    /* border: 2px solid blueviolet; */
+    width: 100%;
+    padding: 6px 4px 6px 4px;
+}
+
+.mid-section .mid-section-div-1 {
+    width: 99%;
+
+    margin: 4px auto;
+    display: flex;
+}
+
+.mid-section .mid-section-div-1 .image img {
+    width: 98%;
+max-height: 20em;
+    margin: 0 auto;
+}
+
+.mid-section .mid-section-div-1 .image {
+    width: 50%;
+}
+
+.mid-section .mid-section-div-1 .image-content {
+    width: 50%;
+    padding: 7px 12px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.mid-section .card {
+    background-color: #FDFCFC;
+    border-top: 5px solid blueviolet;
+    width: 95%;
+    margin: 28px auto;
+    padding: 10px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.26);
+}
+
+.mid-section .mid-section-div-1 .card:hover {
+    transition: all .5s ease-in-out;
+    background-color: blueviolet;
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17);
+}
+
+/* ----------------------------> mid-2-section -------------------------------> */
+
+.mid-2-section {
+    width: 100%;
+    height: 70vh;
+    box-shadow: 0px 0px 10px 0px #0000007a;
+}
+
+
+
+.mid-2-section-div {
+    width: 100%;
+    color: white;
+    margin: 30px auto;
+    height: 70vh;
+    padding: 2em;
+    background: linear-gradient(17deg, #020202a6 50%, transparent 50%);
+}
+
+.mid-2-section-div h1 {
+    font-size: 2em;
+    padding: 5px;
+}
+
+.mid-2-section-div p {
+    margin-top: 1em;
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+.mid-2-section-div h1, .mid-2-section-div p {
+    border-top: 1px solid blueviolet;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 9px 9px 30px 0px rgb(17 17 17)
+}
+
+.mid-2-section-div h1:hover, .mid-2-section-div p:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    transition: all .5s ease-in-out;
+}
+
+/*  ############################ adding backgroun image with two methods ##########*/
+
+.mid-2-section::before {
+    content: "";
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    background:  url(../img/Shiva.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+/*------------------------------> scroll up button ----------------------> */
+
+.scroll-up a {
+    color: white;
+}
+
+.scroll-up:hover {
+    background: linear-gradient(174deg, rgb(58, 54, 54), transparent);
+    font-size: 14px;
+}
+
+.scroll {
+    /* scroll-behavior: smooth; no need for that because we apply scroll behavior in whole html */
+    z-index: 1000;
+    position: fixed;
+    bottom: 42px;
+    right: 11px;
+    width: 3em;
+    padding: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/*  ------------------------> bottom section ----------------------> */
+
+.bottom-section {
+    width: 100%;
+    background-color: #f7f3f33b;
+}
+
+.bottom-section .heading {
+    width: 231px;
+}
+
+.bottom-section .bottom-section-div-1 {
+    width: 90%;
+    margin: 9px auto;
+}
+
+.bottom-section .bottom-section-div-1 textarea {}
+
+/* -------------------------- Contect sECTION -------------------- */
+
+.contact-section {
+    background-color: wheat;
+}
+
+.contact-section .contact-section-heading {
+    width: 227px;
+}
+
+.contact-section .contact-section-div-1 {
+    margin-top: 50px;
+}
+
+.contact-section .contact-section-div-1 .contact-container {
+    width: 30%;
+    margin: 3px auto;
+}
+
+.contact-section .contact-section-div-1 div {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 25px;
+    padding: 3px;
+}
+
+.contact-section .contact-section-div-1 div div:hover {
+    transition: ease-in all .3s;
+    border-bottom: 4px solid blueviolet;
+    margin-left: 20px;
+}
+
+.contact-section .contact-section-div-1 div img {
+    margin-right: 10px;
+}
+
+.contact-section .contact-section-div-1 div img:hover {
+    transition: ease-in all .3s;
+    margin-right: 40px;
+}
+
+/* --------------------------> utility class ----------------------------> */
+
+.text-center {
+    text-align: center;
+}
+
+.all-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-center-r {
+    display: flex;
+    align-items: center;
+}
+
+.all-center-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.border-none {
+    border: none;
+}
+
+.hover:hover {
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transform: rotateZ(3deg);
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17)
+}
+
+.hover-1:hover {
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17);
+    background-color: blueviolet;
+    transition: all .5s ease-in-out;
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17);
+}
+
+.hover-effect:hover {
+    transition: all .5s ease-in-out;
+    background-color: blueviolet;
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17);
+}
+
+.btn {
+    padding: 11px;
+    font-size: large;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    color: white;
+    background: blueviolet;
+    margin: 8px 2px 8px 5px;
+    transition: all .6s ease-in;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.heading {
+    font-family: 'Lobster', cursive;
+    font-size: 2.7em;
+    padding: 10px;
+    margin: 4px;
+    border-bottom: 3px solid blueviolet;
+    width: 137px;
+    margin: 12px auto;
+}
+
+.heading:hover {
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17);
+    background-color: blueviolet;
+    transition: all .5s ease-in-out;
+    box-shadow: 9px 9px 14px 0px rgb(17 17 17);
+}
+
+.input {
+    width: 500px;
+    padding: 5px 30px;
+    font-size: 25px;
+    border: none;
+    font-weight: 800;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 0px #00000040;
+    margin: 13px 0px;
+}
+
+.white {
+    color: white;
+}
+
+.font-faimily{
+    font-family: 'Lobster', cursive;
+
+}

@@ -1,0 +1,193 @@
+@media (max-width:1080px) {
+    /* --------------------> header -------------------------> */
+    #header {
+        height: fit-content;
+        position: static;
+    }
+    .navbar-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0px;
+        width: 84%;
+        justify-content: space-between;
+    }
+    /* ------------------> top section -----------------> */
+    .top-section {
+        width: 100%;
+        background-color: #f7f3f33b;
+        padding: 23px 20px 5px 33px;
+    }
+    
+    .top-section-div {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:1000px) {
+   /* -------------------------------contct  section ----------------- */
+   .contact-section .contact-section-div-1 .contact-container {
+    width: 50%;
+    margin: 3px auto;
+}
+}
+
+
+@media (max-width:850px) {
+    /* -------------------------------contct  section ----------------- */
+    .contact-section .contact-section-div-1 .contact-container {
+        width: 40%;
+        margin: 3px auto;
+    }
+}
+
+@media (max-width:803px) {
+    /* -------------------------------contct  section ----------------- */
+    .contact-section .contact-section-div-1 .contact-container {
+        width: 43%;
+        margin: 3px auto;
+    }
+}
+
+@media (max-width:674px) {
+    /* -------------------------------contct  section ----------------- */
+    .contact-section .contact-section-div-1 .contact-container {
+        width: 50%;
+        margin: 3px auto;
+    }
+}
+
+@media (max-width:598px) {
+    /* -------------------------------contct  section ----------------- */
+    .contact-section .contact-section-div-1 .contact-container {
+        width: 60%;
+        margin: 3px auto;
+    }
+}
+
+@media (max-width:486px) {
+    /* -------------------------------contct  section ----------------- */
+    .contact-section .contact-section-div-1 .contact-container {
+        width: 80%;
+        margin: 3px auto;
+    }
+
+}
+
+@media (max-width:363px) {
+    /* -------------------------------contct  section ----------------- */
+    .contact-section .contact-section-div-1 .contact-container {
+        width: 98%;
+        margin: 3px auto;
+    }
+    
+
+}
+@media (max-width:810px) {
+    /* ---------------------------->mid section -------------------------> */
+    .mid-section .mid-section-div-1 {
+        flex-direction: column;
+    }
+    .mid-section .mid-section-div-1 .card {
+        width: 100%;
+    }
+    .mid-section .mid-section-div-1 .image {
+        width: 94%;
+    }
+    .mid-section .mid-section-div-1 .image-content {
+        width: 95%;
+    }
+    /* ------------------------> bottom section ----------------------> */
+    .input {
+        width: 406px;
+    }
+}
+
+@media (max-width:611px) {
+    /* ........................>  top section btn ------------------> */
+   .top-section #a{
+    padding: 3px;
+    font-size: 10px;
+    margin: 20px 2px 12px 12px;
+
+    /* -------------------------------> mid Section Image Content ---------> */
+
+   }.mid-section .mid-section-div-1 .image-content {
+    font-size: 16px;
+   
+}
+}
+
+@media (max-width:600px) {
+    /* header logo */
+    .navbar-container .logo {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width:465px) {
+       /* -------------------------------> mid Section Image Content h1 ---------> */
+.mid-section .mid-section-div-1 .image-content h1 {
+    font-size: 20px;
+}
+}
+
+@media (max-width:453px) {
+    .navbar-container ul a {
+        margin-right: 5px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:440px) {
+    /* ------------------------> bottom section ----------------------> */
+    .input {
+        width: 361px;
+    }
+    /* header */
+    .navbar-container ul a {
+        padding: 2px 4px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    /* ------------------------> fonsize html ----------------------> */
+    body{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width:850px) {
+    /* ------------------------> fonsize top secton ----------------------> */
+    .top-section-div:last-child {
+        font-size: 20.5px;
+        padding: 20px 10px;
+        width: 98%;
+    }
+}
+
+@media (max-width:450px) {
+    /* ------------------------> fonsize top secton ----------------------> */
+    .top-section-div:last-child {
+        font-size: 16.5px;
+        padding: 20px 10px;
+        width: 98%;
+    }
+}
+
+@media (max-width:387px) {
+    /* ------------------------> bottom section ----------------------> */
+    .input {
+        width: 12em;
+    }
+}
+
+@media (max-width:360px) {
+    /* header logo */
+    .navbar-container .logo {
+        font-size: 1.6em;
+    }
+}
